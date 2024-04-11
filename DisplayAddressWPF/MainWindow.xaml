@@ -1,0 +1,10 @@
+﻿<Window x:Class="DisplayAddressWPF.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:m="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF"
+    Width="1024" Height="768" Loaded="Window_Loaded">
+    <Grid>
+        <m:Map x:Name="myMap" CredentialsProvider="rlOQHqvgydklMdwaQpTs~2ABi0R5AuQXzlDyIS5RJwQ~Ajh8Q9JoMtW_PkcY-IQBgLRvc-3SOz8tDR52P-UtRD1uIUksrk0mdpmhNOp8K2Nz" Mode="Road" Center="41.4993, -81.6944" ZoomLevel="10"/>
+    </Grid>
+
+</Window>
